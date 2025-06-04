@@ -1,0 +1,24 @@
+.container-grid{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.grid-item{
+    padding : 10px;
+    margin: 5px;
+    border: 1px solid #cccccc;
+    transition: background-color 0.3s ease-out;
+}
+
+.grid-item:hover{
+    background-color: #040404;
+}
+#reset{
+    margin-top: 10px;
+    align-items: center;
+}
